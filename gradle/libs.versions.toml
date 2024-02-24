@@ -1,0 +1,13 @@
+[versions]
+kotlin = "1.9.22"
+ktsmc = "1.0-SNAPSHOT"
+minecraft = "1.20.4"
+neogradle = "7.0.93"
+
+[libraries]
+ktsmc = { module = "io.github.gaming32:ktsmc", version.ref = "ktsmc" }
+minecraft = { module = "net.minecraft:client", version.ref = "minecraft" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+neogradle = { id = "net.neoforged.gradle.vanilla", version.ref = "neogradle" }
