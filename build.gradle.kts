@@ -12,6 +12,7 @@ repositories {
     maven("https://maven.shedaniel.me/")
     maven("https://maven.blamejared.com/")
     mavenLocal()
+    maven("https://maven.jemnetworks.com/snapshots")
 }
 
 dependencies {
